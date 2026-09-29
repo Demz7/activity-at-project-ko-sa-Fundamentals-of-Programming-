@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>calcu</title>
+</head>
+<body>
+	<div class="calculator">
+    
+    <div class="display" id="display">
+      Calcu Ni Mark Cabrales
+    </div>
+
+    <div class="buttons">
+      <button onclick="clearDisplay()" class="special">AC</button>
+      <button onclick="deleteNumber()" class="special">DEL</button>
+      <button onclick="percent()" class="special">%</button>
+      <button onclick="addToDisplay('/')" class="operator">/</button>
+
+      <button onclick="addToDisplay('7')">7</button>
+      <button onclick="addToDisplay('8')">8</button>
+      <button onclick="addToDisplay('9')">9</button>
+      <button onclick="addToDisplay('*')" class="operator">*</button>
+
+      <button onclick="addToDisplay('4')">4</button>
+      <button onclick="addToDisplay('5')">5</button>
+      <button onclick="addToDisplay('6')">6</button>
+      <button onclick="addToDisplay('-')" class="operator">-</button>
+
+      <button onclick="addToDisplay('1')">1</button>
+      <button onclick="addToDisplay('2')">2</button>
+      <button onclick="addToDisplay('3')">3</button>
+      <button onclick="addToDisplay('+')" class="operator">+</button>
+
+      <button onclick="addToDisplay('0')">0</button>
+      <button onclick="addToDisplay('.')">.</button>
+      <button onclick="calculate()">=</button>
+    </div>
+  </div>
+  
+  <script src="js/index.js"></script>
+</body>
+</html>
